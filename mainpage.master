@@ -1,0 +1,103 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainpage.master.cs" Inherits="mainpage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+      <asp:Image ID="Image1" runat="server" Height="118px" Style="z-index: 102; left: -4px;
+            position: absolute; top: 2px" Width="1605px" ImageUrl="~/picture/Blue hills.jpg" />
+       <asp:Panel ID="Panel1" runat="server" Height="100px" Style="z-index: 101; left: -1px;
+                   position: absolute; top: 120px" Width="1005px">
+           &nbsp;&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               <br />
+               <br />
+               <br />
+               &nbsp;<br />
+               <br />
+               <br />
+               <br />
+               <br />
+               
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+           </asp:ContentPlaceHolder>
+               <br />
+               <br />
+               <asp:Menu ID="Menu1" runat="server" BackColor="#FF8080" Height="46px" Orientation="Horizontal"
+                   Style="z-index: 100; left: 0px; position: absolute; top: 0px" Width="1613px">
+                   <Items>
+                       <asp:MenuItem Text="  Student" Value="Student" NavigateUrl="~/stulogin.aspx"></asp:MenuItem>
+                       <asp:MenuItem Text="Course" Value="College" NavigateUrl="~/college.aspx"></asp:MenuItem>
+                       <asp:MenuItem Text="University" Value="University" NavigateUrl="~/universitylogin.aspx"></asp:MenuItem>
+                       <asp:MenuItem Text="Lectures" Value="Lectures" NavigateUrl="~/lectures.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Meeting" Value="Meeting" NavigateUrl="~/meeting.aspx"></asp:MenuItem>
+                       <asp:MenuItem Text="Contact Us" Value="Contact Us" NavigateUrl="~/Contact Us.aspx"></asp:MenuItem>
+                   </Items>
+               </asp:Menu>
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+           
+        </asp:Panel>
+    </div>
+        
+    </form>
+</body>
+</html>
+<%--
+   --%>

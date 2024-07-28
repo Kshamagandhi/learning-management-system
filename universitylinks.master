@@ -1,0 +1,114 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="universitylinks.master.cs" Inherits="universitylinks" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;<br />
+        <br />
+        <br />
+        <img src="picture/2.gif" style="z-index: 102; left: 0px; width: 1000px; position: absolute;
+            top: 0px; height: 169px" />
+             <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Thankyou.aspx" Style="z-index: 102;
+                left: 904px; position: absolute; top: 200px">Logout</asp:LinkButton>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <asp:LinkButton ID="LinkButton1" runat="server" Style="z-index: 100; left: 0px; position: absolute;
+                top: 0px">LinkButton</asp:LinkButton>
+            <br />
+            <br />
+            <br />
+           
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Style="z-index: 101;
+            left: 0px; position: absolute; top: 176px" Width="952px" OnMenuItemClick="Menu1_MenuItemClick" BackColor="#FF8080" Height="47px">
+            <Items>
+                <asp:MenuItem Text="Attached company" Value="Attached company" PopOutImageUrl="~/companies.aspx" NavigateUrl="~/Companys.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="R&amp;D Section" Value="R&amp;D Section" NavigateUrl="~/Randdlinks2.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Courses" Value="Courses" PopOutImageUrl="~/courses.aspx" NavigateUrl="~/courses.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="List Of Colleges" Value="List Of Colleges" NavigateUrl="~/listofcollegeds.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Programmes" Value="Programmes" NavigateUrl="~/Programmes.aspx"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        &nbsp;<br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>
